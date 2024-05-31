@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flappy Cloud ☁️</title>
+		<style>
+			body{
+				background: url("https://i.pinimg.com/originals/50/c7/38/50c738083fa2175842f6448e2e610b45.gif") no-repeat center center;
+				background-size: cover;
+				margin: 0;
+				padding: 0;
+				height: 100vh;
+				overflow: hidden;
+				position: relative;
+			}
+			h1{
+				font-family: "Press Start 2P";
+				font-size: 70px;
+				text-align: center;
+				padding-top: 100px;
+				color: #383232;
+			}
+			button{
+				font-family: "Press Start 2P";
+				border: none;
+				background-color: #a74555;
+				color: white;
+				border-radius: 8px;
+				height: 50px;
+				width: 300px;
+				position: absolute;
+				cursor: pointer;
+				transform: translate(-50%, -50%);
+				left: 50%;
+			}
+
+			button:hover {
+    			background-color: #610f0fec; 
+			}
+
+			
+		</style>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<script>
+			function actualGame(){
+				location.replace("flappytrial.html");
+			}
+		</script>
+		<h1> Flappy Cloud </h1>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="center">
+			<button onclick="actualGame()"> Click to start game! </button>
+		</div>
+	</body>
+</html>
